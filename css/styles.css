@@ -1,61 +1,121 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: #2e2f42;
+}
 
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    text-decoration: none;
-    color: #2E2F42;
-  }
-
-  .link {
-    text-decoration: none;
-    font-style: normal;
-    color: #2E2F42;
-  }
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: #2e2f42;
+}
 .logo {
-font-family: 'Raleway', sans-serif;
-font-size: 18px;
-line-height: 21px;
-text-transform: uppercase;
-
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
 }
 
 .button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .logo-web {
-color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .address {
-color: #434455;
-font-size: 16px;
-line-height: 24px;
-
-
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .ul {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .nav {
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .hero {
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-color: #FFFFFF;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ffffff;
 }
 
 .button.text {
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.button.text:hover {
+  color: #4d5ae5;
+  background-color: #ffffff;
+}
+.button.text:focus {
+  color: #4d5ae5;
+  background-color: #ffffff;
+}
+.button.text:active {
+  color: #4d5ae5;
+  background-color: #ffffff;
+}
+
+.element-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.section-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+}
+
+.element-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.element-content.footer {
+  color: #f4f4fd;
+}
+
+.button.menu {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+}
+
+.button.menu:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.button.menu:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.button.menu:active {
+  color: #ffffff;
+  background-color: #404bbf;
 }
