@@ -3,12 +3,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
-  color: #2e2f42;
+  color: rgb(46, 47, 66);
 }
 
 .link {
   text-decoration: none;
-  color: #2e2f42;
+  color: rgb(46, 47, 66);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -22,11 +22,11 @@ body {
 }
 
 .logo-web {
-  color: #4d5ae5;
+  color: rgb(77, 90, 229);
 }
 
 .ul.address {
-  color: #434455;
+  color: rgb(67, 68, 85);
   line-height: 1.5;
   font-style: normal;
 }
@@ -44,21 +44,25 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 47, 66);
 }
 
 .button.text {
   font-weight: 500;
   line-height: 1.5;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 90, 229);
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .button.text:hover,
 .button.text:focus,
 .button.text:active {
-  color: #4d5ae5;
-  background-color: #ffffff;
+  color: rgb(77, 90, 229);
+  background-color: rgb(255, 255, 255);
 }
 
 .element-header {
@@ -75,27 +79,36 @@ body {
 
 .element-content {
   line-height: 1.5;
-  color: #434455;
+  color: rgb(67, 68, 85);
+}
+
+.footer-background-color {
+  background-color: rgb(46, 47, 66);
 }
 
 .logo-footer {
-  color: #f4f4fd;
+  color: rgb(244, 244, 253);
 }
 
 .element-content.footer {
-  color: #f4f4fd;
+  color: rgb(244, 244, 253);
 }
 
 .button.menu {
   font-weight: 500;
   line-height: 1.5;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  color: rgb(77, 90, 229);
+  background-color: rgba(244, 244, 253, 1);
+  border: 1px solid rgba(231, 233, 252, 1);
+  border-radius: 4px;
 }
 
 .button.menu:hover,
 .button.menu:focus,
 .button.menu:active {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: rgb(255, 255, 255);
+  background-color: rgba(64, 75, 191, 1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
