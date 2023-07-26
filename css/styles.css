@@ -25,7 +25,7 @@ body {
   color: #4d5ae5;
 }
 
-.address {
+.ul.address {
   color: #434455;
   line-height: 1.5;
   font-style: normal;
