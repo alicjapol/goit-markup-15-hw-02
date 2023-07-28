@@ -26,6 +26,7 @@ body {
   text-decoration: none;
   display: inline;
   height: 72px;
+  color: var(--navy-blue);
 }
 .logo {
   font-family: "Raleway", sans-serif;
