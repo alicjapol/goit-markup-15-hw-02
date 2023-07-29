@@ -1,11 +1,11 @@
 :root {
-  --white: rgba(255, 255, 255, 1);
-  --cornflower: rgba(231, 233, 252, 1);
-  --iris: rgba(77, 90, 229, 1);
-  --navy-blue: rgba(46, 47, 66, 1);
-  --slate: rgba(67, 68, 85, 1);
-  --cloud: rgba(244, 244, 253, 1);
-  --ocean: rgba(64, 75, 191, 1);
+  --white: rgb(255, 255, 255);
+  --cornflower: rgba(231, 233, 252);
+  --iris: rgba(77, 90, 229);
+  --navy-blue: rgba(46, 47, 66);
+  --slate: rgba(67, 68, 85);
+  --cloud: rgba(244, 244, 253);
+  --ocean: rgba(64, 75, 191);
 }
 
 body {
@@ -16,26 +16,21 @@ body {
   
 }
 
-.container {
-  width: 1440px;
-}
 
 .link {
   text-decoration: none;
   display: inline;
-  height: 72px;
   color: var(--navy-blue);
 }
 .logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   font-weight: 800px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-top: 24px;
-  margin-left: 156px;
   color: var(--iris);
 }
 
@@ -54,11 +49,6 @@ h1 {
   font-style: normal;
 }
 
-.address {
-  display: inline-flex;
-  margin-right: 156;
-  gap: 40px;
-}
 
 .ul {
   list-style-type: none;
@@ -67,8 +57,7 @@ h1 {
 .nav {
   font-weight: 500;
   line-height: 1.5;
-  display: inline-flex;
-  padding-left: 76px;
+
   gap: 40px;
 }
 
@@ -86,8 +75,7 @@ h1 {
   color: var(--white);
   background-color: var(--iris);
   border: none;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+
 }
 
 .button.text:hover,
@@ -132,7 +120,7 @@ h1 {
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
-  border-radius: 4px;
+
 }
 
 .button.menu:hover,
@@ -140,7 +128,5 @@ h1 {
 .button.menu:active {
   color: var(--white);
   background-color: var(--ocean);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
 }
