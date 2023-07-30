@@ -13,9 +13,7 @@ body {
   text-decoration: none;
   color: var(--slate);
   background-color: var(--white);
-  
 }
-
 
 .link {
   font-size: 16px;
@@ -28,7 +26,7 @@ body {
 
 .link:hover,
 .link:focus {
-  color: var(--ocean)
+  color: var(--ocean);
 }
 
 .logo {
@@ -50,10 +48,9 @@ h1 {
   color: var(--navy-blue);
 }
 
-
- address {
+address {
   font-style: normal;
- }
+}
 
 .list {
   list-style: none;
@@ -92,23 +89,20 @@ h1.hero-header {
   color: var(--white);
   background-color: var(--iris);
   border: none;
-
-
 }
 
 .button.text:hover,
 .button.text:focus {
-    color: var(--ocean);
-    background-color: var(--white);
-  }
-
+  color: var(--ocean);
+  background-color: var(--white);
+}
 
 .element-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue)
+  color: var(--navy-blue);
 }
 
 .section-header {
@@ -119,8 +113,6 @@ h1.hero-header {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-
-
 }
 
 .team {
@@ -130,24 +122,21 @@ h1.hero-header {
 .element-content {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em
- 
+  letter-spacing: 0.02em;
 }
 
 .footer-background-color {
   background-color: var(--navy-blue);
-
 }
 
 .logo-footer {
   color: var(--cloud);
 }
 
-
 .element-content.footer {
   color: var(--cloud);
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .button.menu {
@@ -159,22 +148,18 @@ h1.hero-header {
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
-
 }
-
-
 
 .button.menu:active {
   color: var(--white);
   background-color: var(--ocean);
-
 }
 .button.menu:focus,
-.button.menu:hover
-{
+.button.menu:hover {
   color: var(--white);
   background-color: var(--ocean);
 }
 
 .huj {
-  color: rgb(46, 47, 66);}
+  color: rgb(46, 47, 66);
+}
