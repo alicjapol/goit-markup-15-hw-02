@@ -51,12 +51,10 @@ h1 {
   color: var(--navy-blue);
 }
 
-.list.address {
-  color: var(--slate);
-  line-height: 1.5;
-  font-style: normal;
-}
 
+ address {
+  font-style: normal;
+ }
 
 .list {
   list-style: none;
@@ -65,49 +63,72 @@ h1 {
 .nav {
   font-weight: 500;
   line-height: 1.5;
-
-  gap: 40px;
 }
 
-.hero {
+.contacts {
+  color: var(--slate);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--ocean);
+}
+
+h1.hero-header {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white);
   background-color: var(--navy-blue);
 }
 
 .button.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
   border: none;
 
+
 }
 
 .button.text:hover,
-.button.text:focus,
-.button.text:active {
-  color: var(--iris);
-  background-color: var(--white);
-}
+.button.text:focus {
+    color: var(--ocean);
+    background-color: var(--white);
+  }
+
 
 .element-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue)
 }
 
 .section-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+
+
 }
 
 .element-content {
+  font-size: 16px;
   line-height: 1.5;
-  color: var(--slate);
+  letter-spacing: 0.02em
+ 
 }
 
 .footer-background-color {
