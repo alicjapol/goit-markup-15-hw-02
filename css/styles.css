@@ -39,7 +39,6 @@ body {
   font-weight: 800px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--iris);
 }
 
@@ -124,6 +123,10 @@ h1.hero-header {
 
 }
 
+.team {
+  background-color: var(--white);
+}
+
 .element-content {
   font-size: 16px;
   line-height: 1.5;
@@ -133,17 +136,18 @@ h1.hero-header {
 
 .footer-background-color {
   background-color: var(--navy-blue);
+
 }
 
 .logo-footer {
   color: var(--cloud);
 }
 
-.logo-web {
-  color: var(--cloud)
-}
+
 .element-content.footer {
   color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em
 }
 
 .button.menu {
