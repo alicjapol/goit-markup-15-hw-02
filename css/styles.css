@@ -166,7 +166,7 @@ h1.hero-header {
 
 .button.menu:active {
   color: var(--white);
-  background-color: var(--cloud);
+  background-color: var(--ocean);
 
 }
 .button.menu:focus,
