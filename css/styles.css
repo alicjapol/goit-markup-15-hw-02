@@ -18,10 +18,19 @@ body {
 
 
 .link {
+  font-size: 16px;
+  line-height: 1.5;
   text-decoration: none;
-  display: inline;
+  font-weight: 500;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
+
+.link:hover,
+.link:focus {
+  color: var(--ocean)
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -30,12 +39,11 @@ body {
   font-weight: 800px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
+
   color: var(--iris);
 }
 
 h1 {
-  display: block;
   height: 600px;
 }
 
@@ -43,15 +51,15 @@ h1 {
   color: var(--navy-blue);
 }
 
-.ul.address {
+.list.address {
   color: var(--slate);
   line-height: 1.5;
   font-style: normal;
 }
 
 
-.ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
 .nav {
@@ -110,23 +118,38 @@ h1 {
   color: var(--cloud);
 }
 
+.logo-web {
+  color: var(--cloud)
+}
 .element-content.footer {
   color: var(--cloud);
 }
 
 .button.menu {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
 
 }
 
-.button.menu:hover,
-.button.menu:focus,
+
+
 .button.menu:active {
   color: var(--white);
-  background-color: var(--ocean);
+  background-color: var(--cloud);
 
 }
+.button.menu:focus,
+.button.menu:hover
+{
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.huj {
+  color: rgb(46, 47, 66);}
