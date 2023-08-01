@@ -62,7 +62,8 @@ address {
 }
 
 .contacts {
-  color: var(--slate);
+  font-weight: 400;
+
 }
 
 .contacts:hover,
@@ -89,6 +90,7 @@ h1.hero-header {
   color: var(--white);
   background-color: var(--iris);
   border: none;
+  cursor: pointer;
 }
 
 .button.text:hover,
@@ -148,7 +150,7 @@ h1.hero-header {
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
-}
+cursor: pointer;}
 
 .button.menu:active {
   color: var(--white);
